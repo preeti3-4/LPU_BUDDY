@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LPU_BUDDY</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="profile.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  
+
+  <!-- nav -->
+  <header>
+    <!-- login -->
+    
+    <!-- login l -->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <div class="logo outline">
+          <a ><img class="rounded-5 " src="images/logo.png" height="100rem" width="100rem" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <form class="d-flex navsearchbox border border-secondary p-2 rounded-pill" role="search">
+            <input class="form-control w- me-3 outline navsearchinput rounded-5 " type="search" placeholder="Search" aria-label="Search">
+            <button class="navsearchbtn outline rounded-5" type="submit"><i class=" navsearchbtn fa-solid fa-magnifying-glass"></i></button>
+          </form>
+          <div class="navoptions">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link nav-link1 active px-2" aria-current="page" href="lpu_buddy.html">Dashboard</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nav-link1 active " href="#aboutus">About us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link nav-link1 active dropdown-toggle px-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                <ul class="dropdown-menu center">
+                  <li><a class="dropdown-item droptags" href="#books">BOOKS</a></li>
+                  <li><a class="dropdown-item droptags" href="#transport">Transport</a></li>
+                  <li><a class="dropdown-item droptags" href="#kitchen">Kitchen</a></li>
+                  <li><a class="dropdown-item droptags" href="#laundary">Laundary</a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active nav-link1">Contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="navicons mb-2 mb-lg-0 loc-icon rounded-5 d-flex">
+            <a class="nav-link nav-link1 cart" href=""><i class="fa-brands fa-opencart"></i></a>
+            <a class="nav-link nav-link1 profile" href=""><i class="fa-solid fa-circle-user"></i></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+  </header>
+
+  <main>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active displaypics" data-bs-interval="10000">
+          <img src="images/pexels-rdne-6646949.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="items rounded-5 ">
+              <p class="quote text-light">we welcome you to take a step towards better future.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item displaypics" data-bs-interval="2000">
+          <img src="images/brand-new-shiny-black-retro-chopper-is-parked-brick-building.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="items rounded-5 ">
+              <p class="quote text-light">we welcome you to take a step towards better future.</p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item displaypics">
+          <img src="images/pexels-panditwiguna-3401403.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <div class="items rounded-5 ">
+              <p class="quote text-light">we welcome you to take a step towards better future.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+      
+      
+    </div>
+
+    <div class="buytitle d-flex" id="aboutus">
+      <div class="">
+        <p class="heading" style="color: azure;">About Us</p>
+      </div>
+      <div class="rounded-5 aboutdetails aboutus" id="content">
+        With this plateform our goal is to help <br> freasher students with used Appliances like..<br> (Books, Transport, Kitchen and Laundary Appliances) <br>for free or at negligible price.
+      </div>
+    </div>
+
+    <div class="buytitle mt-5" >
+      <p class="outline ptitle rounded-pill " id="books"> BOOKS</p>
+    
+  </div>
+  <div class="">
+    <div class="buyproducts  d-flex">
+      <div class="card1 spacearound blurb" >
+        <div class="udetails">
+          <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+          <p class=" underline">Ajay</p>
+        </div>
+        <div class="ppic"><img src="images/images (18).jpg" alt="" height="175px" width="217px"></div>
+        <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">Free</label></div>
+      </div>
+      <div class="card1 spacearound blurb">
+        <div class="udetails">
+          <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+          <p class=" underline">Shubham</p>
+        </div>
+        <div class="ppic whiteborder"><img src="images/images (16).jpg" alt="" height="175px" width="215px"></div>
+        <div class="pprice "> <i id="icon2" class="fa fa-cart-arrow-down carticon" onclick="hideIcon2()"></i> <label for="">120/-</label></div>
+      </div>
+      <div class="card1 spacearound blurb">
+        <div class="udetails">
+          <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+          <p class=" underline">Mukesh</p>
+        </div>
+        <div class="ppic whiteborder"><img src="images/download.jpg" alt="" height="175px" width="215px"></div>
+        <div class="pprice "><i class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">150/-</label></div>
+      </div>
+      <div class="card1 spacearound blurb">
+        <div class="udetails">
+          <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+          <p class=" underline">Niraj</p>
+        </div>
+        <div class="ppic whiteborder"><img src="images/images (17).jpg" alt="" height="175px" width="215px"></div>
+        <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">100/-</label></div>
+      </div>
+    </div>
+  </div>
+
+    <div class="buytitle mt-5" >
+        <p class="outline ptitle rounded-pill " id="transport"> Transport Appliances</p>
+      
+    </div>
+    <div class="">
+      <div class="buyproducts  d-flex">
+        <div class="card1 spacearound blurb" >
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Anju</p>
+          </div>
+          <div class="ppic"><img src="images/51-a1h0M5rL._SS400_.jpg" alt="" height="175px" width="217px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">Free</label></div>
+        </div>
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Pratik</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/brand-new-shiny-black-retro-chopper-is-parked-brick-building.jpg" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">12000/-</label></div>
+        </div>
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Rahul</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/c83ac573efac2073af31a284d15c2a49.webp" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">8000/-</label></div>
+        </div>
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Navjot</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/img1.jpg" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">60000/-</label></div>
+        </div>
+      </div>
+    </div>
+    <div class="buytitle mt-5" >
+        <p class="outline ptitle rounded-pill " id="kitchen"> Kitchen Appliances</p>
+      
+    </div>
+    <div class="">
+      <div class="buyproducts  d-flex">
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Sohan</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/images (8).jpg" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">500/-</label></div>
+        </div>
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Anju</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/images (6).jpg" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">1000/-</label></div>
+        </div>
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Radhika</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/images (9).jpg" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">Free</label></div>
+        </div>
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Sonu</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/images (7).jpg" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">120/-</label></div>
+        </div>
+        
+      </div>
+
+      <div class="buytitle mt-5" >
+        <p class="outline ptitle rounded-pill " id="laundary">Laundary  Appliances</p>
+      </div>
+    <div class="">
+      <div class="buyproducts  d-flex">
+
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Akash</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/images (11).jpg" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">300/-</label></div>
+        </div>
+
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Mukund</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/images (12).jpg" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">Free</label></div>
+        </div>
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Niyazudin</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/images (14).jpg" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">1000/-</label></div>
+        </div>
+        <div class="card1 spacearound blurb">
+          <div class="udetails">
+            <img src="images/avatar.png" alt="" class=" whiteborder" height="50px" width="50px">
+            <p class=" underline">Prince</p>
+          </div>
+          <div class="ppic whiteborder"><img src="images/images (15).jpg" alt="" height="175px" width="215px"></div>
+          <div class="pprice "> <i id="icon" class="fa fa-cart-arrow-down carticon" onclick="hideIcon()"></i> <label for="">1500/-</label></div>
+        </div>
+
+
+      </div>
+
+
+    </div>
+  </main>
+
+  <!--Footer code-->
+  <footer>
+    <div class="footer__real">
+
+        <div class="footer__content">
+            <div class="lists">
+                <ul>
+                    <h4>POPULAR category</h4>
+                    <li>Cars</li>
+                    <li>Flats for rent</li>
+                    <li>Mobile Phones</li>
+                    <li>Jobs</li>
+                </ul>
+                <ul>
+                    <h4>POPULAR category</h4>
+                    <li>Cars</li>
+                    <li>Flats for rent</li>
+                    <li>Mobile Phones</li>
+                    <li>Jobs</li>
+                </ul>
+                <ul>
+                    <h4>POPULAR category</h4>
+                    <li>Cars</li>
+                    <li>Flats for rent</li>
+                    <li>Mobile Phones</li>
+                    <li>Jobs</li>
+                </ul>
+                <ul>
+                    <h4>POPULAR category</h4>
+                    <li>Cars</li>
+                    <li>Flats for rent</li>
+                    <li>Mobile Phones</li>
+                    <li>Jobs</li>
+                </ul>
+            </div>
+            <div class="follow_us">
+                <h4>FOLLOW US</h4>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="apps">
+                    <img src="./images/apple.svg" alt="">
+                    <img src="./images/google.svg" alt="">
+                    <img src="./images/app_galery.svg" alt="">
+                </div>
+              </div>
+            </div>
+          </div>
+    <div class="credit">created  by <span>AAPPSA</span>| all rights reserved upto 3000</div>
+  </footer>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
